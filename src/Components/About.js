@@ -28,8 +28,8 @@ export default function About(props) {
     }
   }
   return (
-    <body style={myStyle}>
-      <div className="container" style={myStyle}>
+    // <body style={myStyle}>
+      <div className="container my-5" style={myStyle}>
         <h3> About us </h3>
         <div className="accordion my-5" id="accordionExample" style={myStyle}>
           <div className="accordion-item">
@@ -142,6 +142,6 @@ export default function About(props) {
           </div>
         </div>
       </div>
-    </body>
+    // </body>
   );
 }
